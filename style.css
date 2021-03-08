@@ -1,6 +1,6 @@
 body {
     max-width: 1920px;
-    width: 99%;
+    /* width: 99%; */
 }
 
 header {
@@ -65,13 +65,13 @@ main {
 main .container1 {
     width: 1920px;
     max-width: 1920px;
-    height: calc(100vh - 140px);
     min-height: 950px;
     background-color: #ebecee;
     background-image: url(./images/main/slider/image1.png);
     background-repeat: no-repeat;
     background-position-x: right;
 }
+
 
 main .container1 .text {
     display: flex;
@@ -101,6 +101,208 @@ main .container1 .text .st {
     max-width: 275px;
     height: 60px;
     margin-top: 58px;
+}
+
+@media(max-width:1800px) {
+    main .container1 .text .st {
+        margin-top: 110px;
+    }
+}
+
+@media(max-width:1600px) {
+    main .container1 .text .st {
+        margin-top: 135px;
+    }
+
+    main .container1 .text {
+        margin-left: 55px;
+        padding-top: 155px;
+    }
+
+    main .container1 {
+        margin: 0 auto;
+        margin-left: 60px;
+        max-height: 450px;
+        width: 1920px;
+        background-size: cover;
+        background-color: #ebecee;
+    }
+}
+
+@media(max-width:1460px) {
+    main .container1 {
+        max-height: 450px;
+        background-size: contain;
+        background-color: #ffffff;
+    }
+}
+
+@media(max-width:1375px) {
+    main .container1 .text .st {
+        margin-top: 135px;
+    }
+
+    main .container1 .text {
+        margin-left: 25px;
+    }
+
+    main .container1 {
+        margin: 0 auto;
+        margin-left: 60px;
+        background-color: initial;
+        max-height: 650px;
+        width: 1920px;
+        background-size: cover;
+    }
+}
+
+@media(max-width:1200px) {
+    main .container1 {
+        margin: 0 auto;
+        min-height: 500px;
+        width: 1920px;
+        background-size: contain;
+        background-color: #ebecee;
+    }
+
+    main .container1 .text {
+        margin-left: 15px;
+        padding-top: 95px;
+    }
+}
+
+@media(max-width:885px) {
+    main .container1 {
+        margin: 0 auto;
+        max-height: 350px;
+        width: 1920px;
+        background-size: contain;
+        background-color: #ebecee;
+    }
+
+    main .container1 .text {
+        padding-left: 150px;
+        padding-top: 275px;
+        margin: 0 auto;
+    }
+
+    main .container1 .text .bt h3 {
+        color: #17a2b8;
+    }
+}
+
+@media(max-width:768px) {
+    main .container1 {
+        margin: 0 auto;
+        min-height: 750px;
+        width: 1920px;
+        background-size: contain;
+        background-color: #ebecee;
+    }
+
+    main .container1 .text {
+        padding-left: 75px;
+        padding-top: 85%;
+        margin: 0 auto;
+    }
+
+    main .container1 .text .bt h3 {
+        color: #17a2b8;
+        font-size: 50px;
+    }
+
+    main .container1 .text .st {
+        margin-top: 85px;
+    }
+}
+
+@media(max-width:600px) {
+    main .container1 {
+        margin: 0 auto;
+        min-height: 650px;
+        max-width: 1920px;
+        background-color: #ebecee;
+    }
+
+    main .container1 .text {
+        padding-left: 55px;
+        padding-top: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:505px) {
+    main .container1 {
+        background-size: cover;
+        background-position-y: top;
+        min-height: 590px;
+        width: 350px;
+    }
+
+    main .container1 .text {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    main .container1 .text h3 {
+        width: 265px;
+        font-size: 35px;
+    }
+}
+
+@media(max-width:455px) {
+    main .container1 {
+        min-height: 540px;
+    }
+
+    main .container1 .text {
+        padding-left: 55px;
+        padding-top: 95%;
+        margin: 0 auto;
+    }
+
+    main .container1 .text .st a {
+        padding: 15px 15px;
+        width: 280px;
+    }
+}
+
+@media(max-width:380px) {
+    main .container1 {
+        background-size: cover;
+        background-position-y: top;
+        min-height: 500px;
+        width: 310px;
+    }
+
+    main .container1 .text {
+        display: flex;
+        flex-direction: column;
+        width: 310px;
+    }
+
+    main .container1 .text .bt h3 {
+        width: 245px;
+        font-size: 30px;
+        padding-top: 25px;
+    }
+
+    main .container1 .text .st a {
+        padding: 10px 20px;
+        width: 260px;
+    }
+}
+
+@media(max-width:368px) {
+    main .container1 .text .st {
+        width: 230px;
+    }
+
+    main .container1 .text .st a {
+        padding: 10px 25px;
+        width: 230px;
+    }
 }
 
 main .container1 .text .st a {
@@ -1095,10 +1297,10 @@ main .container2 .centr .images .opis .text2 p {
     min-height: 700px;
 }
 
-.container10 .filling:hover {
-    /* background-color: #0fa673; */
+/*.container10 .filling:hover {
+     background-color: #0fa673;
     background-color: #33cc99;
-}
+} */
 
 .container10 h4 {
     font-family: 'Ubuntu', sans-serif;
